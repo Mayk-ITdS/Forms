@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.forms-container {
+    padding: 3px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+
+    align-items: flex-start;
+    /* This ensures that the forms are aligned at the top */
+}
+
+.form-container {
+    margin: 4px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-form {
+    margin-right: 20px;
+    /* This adds space between the left form and the right forms */
+}
+
+.form-style {
+    background: url('blackbackground.jpeg') no-repeat center center/cover;
+    border-radius: 8px;
+    padding: 20px;
+    border: 3px solid gray;
+    color: rgb(255, 254, 254);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    /* Adjust the width as needed */
+}
+
+.form-group1 {
+    display: flex;
+    align-items: center;
+}
+
+.form-group input {
+    width: auto;
+
+}
+
+.form-group label {
+    display: block;
+}
+
+.right-forms {
+    justify-content: right;
+    /* If the right forms need to be of different widths, you can override the width here */
+}
+
+div label {}

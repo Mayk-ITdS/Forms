@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formularz reklamacji</title>
+    <link rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+
+    <h1 class="form-title">Formularz reklamacji</h1>
+
+    <div class="forms-container" style="display: flex;flex-wrap: wrap;justify-content: space-evenly;">
+        <!-- Left Form -->
+        <form class="form-style" id="form-personal-data">
+            <div class="forms-container">
+
+
+                <h2>
+                    <u>Dane identyfikacyjne</u>
+                </h2>
+                <div class="form-group">
+                    <label>Pan
+
+                        <input class="radios" type="radio" name="choice1">
+                    </label>
+
+
+                    <label>
+                        Pani
+                        <input class="radios" type="radio" name="choice1">
+                    </label>
+
+
+                    <div class="form-group1">
+                        <label for="firma">Imie:</label></span>
+                        <input style="color: black;" id="firma" type="text">
+                    </div>
+                    <div>
+                        <label for="firma">Nazwisko:</label>
+                        <input id="firma" type="text">
+                    </div>
+                    <div>
+                        <label for="ulica">Ulica:</label>
+                        <input id="ulica" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="miejscowosc">Miejscowosc:</label>
+                        <input id="miejscowosc" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="kodPocztowy">Kod Pocztowy:</label>
+                        <input class="kodPocztowy" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="nip">NIP:</label>
+                        <input id="NIP" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="www">WWW:</label>
+                        <input id="www" type="text">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="www">Email:</label>
+                        <input id="Email" type="text">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="nrtel">Nr telefonu:</label>
+                        <input id="nrtel" type="text">
+
+                    </div>
+                    <p style="color:white">Sposob kontaktu:</p>
+                    <label style="color: white;">Email</label>
+                    <input type="checkbox" id="choice2">
+                    <label style="color: white;">Nr telefonu</label>
+                    <input type="checkbox" id="choice2">
+                </div>
+            </div>
+
+        </form>
+
+
+        <div class="right-forms">
+
+            <form class="form-style" id="form-product">
+                <h2>
+                    <u>Reklamowany produkt</u>
+                </h2>
+
+
+
+                <div>
+                    <label for="ulica">Asortyment</label>
+                    <select required size="1" placeholder="Twoj wybor">
+                        <option disabled>Twoj wybor</option>
+                        <option>Mieso</option>
+                        <option>Cukier</option>
+                        <option>Chleb</option>
+                        <option>Talerz</option>
+                    </select>
+
+                </div>
+                <div style class="form-group">
+                    <p><label style="text-align: left;" for="miejscowosc">Numer seryjny</label>
+                        <input style="color:black " id="miejscowosc1" type="text">
+                    </p>
+
+                </div>
+                <div class="form-group">
+                    <label for="kodPocztowy">Uwagi</label>
+                    <textarea style="width: 300px;height: 250px;"></textarea>
+                </div>
+        </div>
+        </form>
+
+
+        <form class="form-style" id="form-details">
+            <h2>
+                <u>Dane zgloszenia</u>
+            </h2>
+
+            <div class="form-group">
+                <label for="firma">Numer dokumentu zakupu</label>
+                <input id="ZrDokumentuZakupu" type="text">
+            </div>
+            <div class="form-group">
+                <label for="ulica">Data zakupu</label>
+                <input id="DataZakupu" type="text">
+            </div>
+            <div class="form-group">
+                <label for="miejscowosc">Data powstania wady</label>
+                <input id="dataPowstaniaWady" type="text">
+            </div>
+            <div class="form-group">
+                <label for="kodPocztowy">Przyczyna reklamacji</label>
+                <input id="przyczynareklamacji" type="text">
+            </div>
+            <div class="form-group">
+                <label for="nip">Opis wady</label>
+                <textarea style="height: 200px;width: 300px;"></textarea>
+            </div>
+            <div class="form-group">
+                <label id="zadanieReklamujacego1" for="zadanieReklamujacego1">Zadanie reklamujacego</label>
+
+                <select id="zadanieReklamujacego">
+                    <option value="zwrot">Zwrot pieniedzy</option>
+                    <option value="zwrot">Wymiana towaru</option>
+                    <option value="zwrot">Naprawa towaru</option>
+                    <option value="zwrot">Skarga</option>
+
+                </select>
+            </div>
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formularz reklamacji</title>
+    <link rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+
+    <h1 class="form-title">Formularz reklamacji</h1>
+
+    <div style="display: flex;flex-wrap: wrap-reverse; " class="forms-container">
+
+        <div class="form-container left-form">
+            <form class="form-style" id="form-personal-data">
+                <form class="forms-container">
+
+
+                    <h2>
+                        <u>Dane identyfikacyjne</u>
+                    </h2>
+                    <div class="form-group">
+                        <label>Pan
+
+                            <input type="radio" name="choice1">
+                        </label>
+
+
+                        <label>
+                            Pani
+                            <input type="radio" name="choice1">
+                        </label>
+
+
+                        <div>
+                            <label for="firma">Imie:</label>
+                            <input style="color: black;" id="firma" type="text">
+                        </div>
+                        <div>
+                            <label for="firma">Nazwisko:</label>
+                            <input id="firma" type="text">
+                        </div>
+                        <div>
+                            <label for="ulica">Ulica:</label>
+                            <input id="ulica" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="miejscowosc">Miejscowosc:</label>
+                            <input id="miejscowosc" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="kodPocztowy">Kod Pocztowy:</label>
+                            <input class="kodPocztowy" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="nip">NIP:</label>
+                            <input id="NIP" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="www">WWW:</label>
+                            <input id="www" type="text">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="www">Email:</label>
+                            <input id="Email" type="text">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="nrtel">Nr telefonu:</label>
+                            <input id="nrtel" type="text">
+
+                        </div>
+                        <p style="color:white">Sposob kontaktu:</p>
+                        <label style="color: white;">Email</label>
+                        <input type="checkbox" id="choice2">
+                        <label style="color: white;">Nr telefonu</label>
+                        <input type="checkbox" id="choice2">
+                </form>
+            </form>
+        </div>
+
+
+        <div class="form-container right-forms">
+
+            <form class="form-style" id="form-product">
+                <h2>
+                    <u>Reklamowany produkt</u>
+                </h2>
+
+
+
+                <div>
+                    <label for="ulica">Asortyment</label>
+                    <select required size="1" placeholder="Twoj wybor">
+                        <option disabled>Twoj wybor</option>
+                        <option>Mieso</option>
+                        <option>Cukier</option>
+                        <option>Chleb</option>
+                        <option>Talerz</option>
+                    </select>
+
+                </div>
+                <div style class="form-group">
+                    <label for="miejscowosc">Numer seryjny</label>
+                    <input style="color:black" id="miejscowosc1" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="kodPocztowy">Uwagi</label>
+                    <input id="kodPocztowy1" type="text">
+                </div>
+            </form>
+
+
+            <form class="form-style" id="form-details">
+                <h2>
+                    <u>Dane zgloszenia</u>
+                </h2>
+
+                <div class="form-group">
+                    <label for="firma">Numer dokumentu zakupu</label>
+                    <input id="ZrDokumentuZakupu" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="ulica">Data zakupu</label>
+                    <input id="DataZakupu" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="miejscowosc">Data powstania wady</label>
+                    <input id="dataPowstaniaWady" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="kodPocztowy">Przyczyna reklamacji</label>
+                    <input id="przyczynareklamacji" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="nip">Opis wady</label>
+                    <textarea style="height: 100px;width: 300px;"></textarea>
+                </div>
+                <div class="form-group">
+                    <label id="zadanieReklamujacego1" for="zadanieReklamujacego1">Zadanie reklamujacego</label>
+
+                    <select id="zadanieReklamujacego">
+                        <option value="zwrot">Zwrot pieniedzy</option>
+                        <option value="zwrot">Wymiana towaru</option>
+                        <option value="zwrot">Naprawa towaru</option>
+                        <option value="zwrot">Skarga</option>
+
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
